@@ -1,4 +1,4 @@
-<img src="https://cdn.rawgit.com/IvanVorobei/RequestPermission/e85814ac/resources/request-permission_baner.svg"/>
+<img src="https://cdn.rawgit.com/IvanVorobei/NativeLogin/9937ab4f/resources/native-login%20-%20baner%20-%20outline.svg"/>
 
 ## About
 This project simplifies work with forms of authorization and uses native elements that Apple recommends and uses. It may seem that such elements are ready in the system, but as it turned out - no. I did a lot of work to repeat the visual reference
@@ -18,21 +18,20 @@ pod 'Sparrow', :git => 'https://github.com/IvanVorobei/Sparrow.git'
 ## How to use
 Create new class with name `LoginNavigationController` and inherit `SPNativeLoginNavigationController`
 ```swift
-class LoginNavigationController: SPNativeLoginNavigationController {
+class LoginNavigationController: SPNativeLoginNavigationController {}
+```
+You must implement in `LoginNavigationController` the next functions (otherwise get fatal error):
+```swift
+override func login(with login: String, password: String, complection: @escaping (SPOauthState) -> ()) {
+
+}
+    
+override func login(with code: String, complection: @escaping (SPOauthState) -> ()) {
 
 }
 ```
-You must implement the next functions (otherwise get fatalError):
-```swift
-    override func login(with login: String, password: String, complection: @escaping (SPOauthState) -> ()) {
-
-    }
-    
-    override func login(with code: String, complection: @escaping (SPOauthState) -> ()) {
-
-    }
-```
 Inside the functions, you should do the work with authorization (for example, http requests) and at the end of authorization call the package. Pass in complection status of authorization
+<img src="https://cdn.rawgit.com/IvanVorobei/NativeLogin/9937ab4f/resources/native-login%20-%20promo.jpg"/>
 
 ## Customize
 If you want to customize the content (keyboard type or text) you should ovveride property 
