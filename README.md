@@ -2,8 +2,7 @@
 
 ## About
 This project simplifies work with forms of authorization and uses native elements that Apple recommends and uses. It may seem that such elements are ready in the system, but as it turned out - no. I did a lot of work to repeat the visual reference
-
-<img src="https://cdn.rawgit.com/IvanVorobei/RequestPermission/e85814ac/resources/request-permission%20-%20mockup_preview.gif" width="600">
+<img src="https://cdn.rawgit.com/IvanVorobei/NativeLogin/facb1610/resources/native-login%20-%20screens.jpg"/>
 
 ## Requirements
 Xcode 9 and Swift 4. Ready for use on iOS 9+
@@ -31,7 +30,6 @@ override func login(with code: String, complection: @escaping (SPOauthState) -> 
 }
 ```
 Inside the functions, you should do the work with authorization (for example, http requests) and at the end of authorization call the package. Pass in complection status of authorization
-<img src="https://cdn.rawgit.com/IvanVorobei/NativeLogin/9937ab4f/resources/native-login%20-%20promo.jpg"/>
 
 ## Customize
 If you want to customize the content (keyboard type or text) you should ovveride property 
