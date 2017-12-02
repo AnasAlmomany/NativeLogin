@@ -58,6 +58,8 @@ class LoginNavigationController: SPNativeLoginNavigationController {
 
 You do not need to override all values, some you can ignore
 
+<img src="https://cdn.rawgit.com/IvanVorobei/NativeLogin/9937ab4f/resources/native-login%20-%20promo.jpg"/>
+
 ## Questions and Problems
 If you have trouble with porject - contact me via email
 
