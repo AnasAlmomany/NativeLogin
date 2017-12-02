@@ -37,24 +37,24 @@ If you want to customize the content (keyboard type or text) you should ovveride
 class LoginNavigationController: SPNativeLoginNavigationController {
 
     override var loginContent: SPNativeLoginNavigationController.LoginContent {
-        return LoginContent(
-            navigationTitle: "Sign In",
-            loginTitle: "Login",
-            loginPlaceholder: "example@icloud.com",
-            loginKeyboardType: UIKeyboardType.emailAddress,
-            passwordTitle: "Password",
-            passwordPlaceholder: "Required",
-            commentTitle: "Please enter a pair of login and password",
-            buttonTitle: "Sign In",
-            errorOauthTitle: "Error",
-            errorOauthSubtitle: "Invalid login or password",
-            errorOauthButtonTitle: "Ok"
-        )
+        var content = LoginContent()
+        content.navigationTitle = "Sign In"
+        content.loginTitle = "Login"
+        content.loginPlaceholder = "example@icloud.com"
+        content.loginKeyboardType = .emailAddress
+        content.passwordTitle = "Password"
+        content.passwordPlaceholder = "Required"
+        content.commentTitle = "Please enter a pair of login and password"
+        content.buttonTitle = "Sign In"
+        content.errorOauthTitle = "Error"
+        content.errorOauthSubtitle = "Invalid login or password"
+        content.errorOauthButtonTitle = "Ok"
+        return content
     }
 }
 ```
 
-You do not need to override all values, some you can ignore
+For CodeController need ovveride `loginCodeContent`. You do not need to override all values, some you can ignore
 
 <img src="https://cdn.rawgit.com/IvanVorobei/NativeLogin/9937ab4f/resources/native-login%20-%20promo.jpg"/>
 

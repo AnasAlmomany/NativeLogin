@@ -39,32 +39,32 @@ class LoginNavigationController: SPNativeLoginNavigationController {
     
     //Mark: - Content
     override var loginContent: SPNativeLoginNavigationController.LoginContent {
-        return LoginContent(
-            navigationTitle: "Sign In",
-            loginTitle: "Login",
-            loginPlaceholder: "example@icloud.com",
-            loginKeyboardType: UIKeyboardType.emailAddress,
-            passwordTitle: "Password",
-            passwordPlaceholder: "Required",
-            commentTitle: "Please enter a pair of login and password",
-            buttonTitle: "Sign In",
-            errorOauthTitle: "Error",
-            errorOauthSubtitle: "Invalid login or password",
-            errorOauthButtonTitle: "Ok"
-        )
+        var content = LoginContent()
+        content.navigationTitle = "Sign In"
+        content.loginTitle = "Login"
+        content.loginPlaceholder = "example@icloud.com"
+        content.loginKeyboardType = .emailAddress
+        content.passwordTitle = "Password"
+        content.passwordPlaceholder = "Required"
+        content.commentTitle = "Please enter a pair of login and password"
+        content.buttonTitle = "Sign In"
+        content.errorOauthTitle = "Error"
+        content.errorOauthSubtitle = "Invalid login or password"
+        content.errorOauthButtonTitle = "Ok"
+        return content
     }
     
     override var loginCodeContent: SPNativeLoginNavigationController.LoginCodeContent {
-        return LoginCodeContent(
-            navigationTitle: "Auth Code",
-            codeTitle: "Code",
-            codePlaceholder: "Required",
-            codeKeyboardType: UIKeyboardType.numberPad,
-            commentTitle: "Please enter a code for authentication",
-            buttonTitle: "Sign In",
-            errorOauthTitle: "Error",
-            errorOauthSubtitle: "Invalid data",
-            errorOauthButtonTitle: "Ok"
-        )
+        var content = LoginCodeContent()
+        content.navigationTitle = "Auth Code"
+        content.codeTitle = "Code"
+        content.codePlaceholder = "Required"
+        content.codeKeyboardType = .numberPad
+        content.commentTitle = "Please enter a code for authentication"
+        content.buttonTitle = "Sign In"
+        content.errorOauthTitle = "Error"
+        content.errorOauthSubtitle = "Invalid data"
+        content.errorOauthButtonTitle = "Ok"
+        return content
     }
 }
