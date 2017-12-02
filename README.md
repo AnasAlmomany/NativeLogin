@@ -1,8 +1,8 @@
-<img src="https://cdn.rawgit.com/IvanVorobei/NativeLogin/9937ab4f/resources/native-login%20-%20baner%20-%20outline.svg"/>
+<img src="https://cdn.rawgit.com/IvanVorobei/NativeLogin/9a0aafd0/resources/native-login%20-%20baner%20-%20outline.svg"/>
 
 ## About
 This project simplifies work with forms of authorization and uses native elements that Apple recommends and uses. It may seem that such elements are ready in the system, but as it turned out - no. I did a lot of work to repeat the visual reference
-<img src="https://cdn.rawgit.com/IvanVorobei/NativeLogin/facb1610/resources/native-login%20-%20screens.jpg"/>
+<img src="https://cdn.rawgit.com/IvanVorobei/NativeLogin/9a0aafd0/resources/native-login%20-%20screens.jpg"/>
 
 ## Requirements
 Xcode 9 and Swift 4. Ready for use on iOS 9+
