@@ -61,6 +61,9 @@ For CodeController need ovveride `loginCodeContent`. You do not need to override
 ## Questions and Problems
 If you have trouble with porject - contact me via email
 
+## You need to develop a UI?
+You can contact me and order the development of an application or UI with excellent animations. Contact with me via email: hello@ivanvorobei.by
+
 ## Apps, using NativeLogin
 I like the idea to specify applications that use the RequestPermission. Please, contact me via email (you can find it in the section "Contacts") so that I added app here
 
