@@ -5,6 +5,8 @@ This project simplifies work with forms of authorization and uses native element
 
 <img src="https://cdn.rawgit.com/IvanVorobei/NativeLogin/4e905663/resources/native-login%20-%20mockup_preview.gif" width="600">
 
+[please, wait loading animated preview]
+
 ## Requirements
 Xcode 9 and Swift 4. Ready for use on iOS 9+
 
