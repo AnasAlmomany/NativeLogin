@@ -70,7 +70,7 @@ If you have trouble with porject - contact me via email
 You can contact me and order the development of an application or UI with excellent animations. Contact with me via email: hello@ivanvorobei.by
 
 ## Apps, using NativeLogin
-I like the idea to specify applications that use the RequestPermission. Please, contact me via email (you can find it in the section "Contacts") so that I added app here
+I like the idea to specify applications that use NativeLogin. Please, contact me via email (you can find it in the section "Contacts") so that I added app here
 
 ## License
 NativeLogin is released under the MIT license. Check LICENSE.md for details
